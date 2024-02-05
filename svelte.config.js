@@ -10,7 +10,8 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-            fallback: 'index.html' // may differ from host to host
+            fallback: 'index.html', // may differ from host to host
+			pages: "github-pages"
         })
 	},
 
