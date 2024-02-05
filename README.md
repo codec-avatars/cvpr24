@@ -1,14 +1,23 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/
-create-svelte).
+# CVPR 24 Workshop on Codec Avatars
 
 ## Before anything
 
-Make sure you are using a recent version of npm:
+Install nvm, the best way to get a recent npm:
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
+Make sure you are using a recent version of npm, such as v20.10.0 aka `lts/iron`:
 
 ```bash
+nvm install lts/iron
 nvm use lts/iron
+```
+
+## Installing all deps
+
+```bash
+npm install
 ```
 
 ## Developing
