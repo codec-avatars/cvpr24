@@ -6,6 +6,7 @@
 	import FaFilePdf from 'svelte-icons/fa/FaFilePdf.svelte';
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import YouTube from 'svelte-youtube-embed';
+	import { base } from "$app/paths";
 	
 	// Flowbite
 	import { Navbar, NavBrand, NavLi, NavUl, Button, NavHamburger } from 'flowbite-svelte'
