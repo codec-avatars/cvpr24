@@ -91,7 +91,7 @@
 	</div>
 </section>
 
-<section class="container mx-auto px-4 py-8">
+<section class="container mx-auto px-4 py-4">
 	<div class="grid">
 		<h2 class="text-4xl font-extrabold dark:text-white">Schedule</h2>
 		<div class="pt-4"><p class="text-xl">
