@@ -42,3 +42,9 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+## Notes
+
+If your website is not on a TLD, you need to remove the `fallback` parameter from the static adapter, otherwise all the
+links will be broken -- sincerely, Julieta who debugged this for hours on Mon Feb 5 2024.
