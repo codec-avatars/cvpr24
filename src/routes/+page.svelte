@@ -10,9 +10,6 @@
 	// Flowbite
 	import { Navbar, NavBrand, NavLi, NavUl, Button, NavHamburger } from 'flowbite-svelte'
   
-	// Custom Components
-	import PointCloudViewer from '../PointCloudViewer.svelte';
-  
 	let datasetName = 'Aurora Multi-Sensor Dataset';
 
 </script>  
@@ -140,16 +137,6 @@
 			<a href="https://arxiv.org/abs/2012.12437">
 				<img src="combined.jpeg" alt="paper"/>
 			</a>
-		</div>
-	</div>
-</section>
-
-
-<section class="container mx-auto px-4 py-12">
-	<h2 class="text-4xl font-extrabold dark:text-white">High Quality LiDAR</h2>
-	<div class="grid gap-6 h-96">
-		<div class="pt-4">
-			<PointCloudViewer />
 		</div>
 	</div>
 </section>
