@@ -55,7 +55,7 @@
 		<NavLi href="{base}/" active={true}>Home</NavLi>
 		<NavLi href="{base}/">Overview</NavLi>
 		<NavLi href="{base}/">Schedule</NavLi>
-		<NavLi href="{base}/">Speakers</NavLi>
+		<NavLi href="{base}/#speakers">Speakers</NavLi>
 		<NavLi href="{base}/">Organizers</NavLi>
 	</NavUl>
 </Navbar>
@@ -102,10 +102,73 @@
 
 <section class="container mx-auto px-4 py-4">
 	<div class="grid">
-		<h2 class="text-4xl font-extrabold dark:text-white">Speakers</h2>
-		<div class="pt-4"><p class="text-xl">
-			Coming soon.
+		<h2 class="text-4xl font-extrabold dark:text-white" id="speakers"><a href="{base}/#speakers">Speakers</a></h2>
+
+		<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+			
+			<div class="grid gap-4">
+				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
+					<a href="https://people.eecs.berkeley.edu/~kanazawa/">
+						<img class="w-full aspect-square object-cover object-top" src="angjoo_photo.jpg" alt="Prof. Kanazawa">
+					</a>
+					<div class="px-6 py-4">
+					<div class="font-bold text-xl mb-2"><a href="https://people.eecs.berkeley.edu/~kanazawa/">Prof. Angjoo Kanazawa</a></div>
+					<p class="text-gray-700 text-base">
+						Assistant Professor in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley.
+						Lead of the Kanazawa AI Research (KAIR) lab under BAIR. Currently serving on the advisory board of Wonder Dynamics.
+					</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid gap-4">
+				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
+					<a href="https://ps.is.mpg.de/person/black">
+						<img class="w-full aspect-square object-cover object-top" src="mjb_photo.jpg" alt="Prof. Kanazawa">
+					</a>
+					<div class="px-6 py-4">
+					<div class="font-bold text-xl mb-2"><a href="https://ps.is.mpg.de/person/black">Prof. Michael Black</a></div>
+					<p class="text-gray-700 text-base">
+						Honorarprofessor at the University of Tübingen and one of the founding directors at the Max Planck Institute for Intelligent Systems in Tübingen, 
+						Germany, where he leads the Perceiving Systems department and serves as Managing Director.
+					</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="grid gap-4">
+				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
+					<a href="https://people.mpi-inf.mpg.de/~theobalt/">
+						<img class="w-full aspect-square object-cover object-top" src="theobalt_photo.jpg" alt="Prof. Kanazawa">
+					</a>
+					<div class="px-6 py-4">
+					<div class="font-bold text-xl mb-2"><a href="https://people.mpi-inf.mpg.de/~theobalt/">Prof. Christian Theobalt</a></div>
+					<p class="text-gray-700 text-base">
+						Director of the Visual Computing and AI Department at MPI for Informatics. Professor of Computer Science at Saarland University,
+						and Director of the Saarbruecken Center for Visual Computing, Interacton and Artificial Intelligence.
+					</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="grid gap-4">
+				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
+					<a href="https://www.cs.cmu.edu/~yaser/">
+						<img class="w-full aspect-square object-cover object-top" src="yaser_photo.jpg" alt="Prof. Kanazawa">
+					</a>
+					<div class="px-6 py-4">
+					<div class="font-bold text-xl mb-2"><a href="https://www.cs.cmu.edu/~yaser/">Prof. Yaser Sheikh</a></div>
+					<p class="text-gray-700 text-base">
+						Vice President and founding director of the Meta Reality Lab in Pittsburgh, devoted to achieving
+						photorealistic social interactions in augmented and virtual reality. He is a consulting professor at the Robotics Institute, Carnegie Mellon University.
+					</p>
+					</div>
+				</div>
+			</div>
+
 		</div>
+
 	</div>
 </section>
 
