@@ -54,10 +54,10 @@
 	</div> -->
 	<NavUl {hidden}>
 		<NavLi href="{base}/" active={true}>Home</NavLi>
-		<NavLi href="{base}/">Overview</NavLi>
-		<NavLi href="{base}/">Schedule</NavLi>
+		<NavLi href="{base}/#overview">Overview</NavLi>
+		<NavLi href="{base}/#schedule">Schedule</NavLi>
 		<NavLi href="{base}/#speakers">Speakers</NavLi>
-		<NavLi href="{base}/">Organizers</NavLi>
+		<NavLi href="{base}/#organizers">Organizers</NavLi>
 	</NavUl>
 </Navbar>
 
@@ -82,7 +82,7 @@
 
 <section class="container mx-auto px-4">
 	<div class="grid">
-		<h2 class="text-4xl font-extrabold dark:text-white">Overview</h2>
+		<h2 class="text-4xl font-extrabold dark:text-white" id="overview"><a href="{base}/#schedule">Overview</a></h2>
 		<div class="pt-4"><p class="text-xl">
 			Our workshop will be devoted to telepresence: the task of generating and driving realistic human representations. 
 			Regarding generation, we plan to cover the learning of efficient 3d representations of faces, hands, and bodies, and the particular challenges of each modality. 
@@ -94,7 +94,7 @@
 
 <section class="container mx-auto px-4 py-4">
 	<div class="grid">
-		<h2 class="text-4xl font-extrabold dark:text-white">Schedule</h2>
+		<h2 class="text-4xl font-extrabold dark:text-white" id="schedule"><a href="{base}/#schedule">Schedule</a></h2>
 		
 		
 		<div class="py-4">
@@ -317,7 +317,7 @@
 
 <section class="container mx-auto px-4 py-4">
 	<div class="grid">
-		<h2 class="text-4xl font-extrabold dark:text-white " id="speakers"><a href="{base}/#speakers">Organizers</a></h2>
+		<h2 class="text-4xl font-extrabold dark:text-white " id="organizers"><a href="{base}/#organizers">Organizers</a></h2>
 
 		
 		<div class="grid grid-cols-4 md:grid-cols-4 gap-8 py-6 ">
