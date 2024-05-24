@@ -104,7 +104,7 @@
 	<div class="grid">
 		<h2 class="text-4xl font-extrabold dark:text-white" id="speakers"><a href="{base}/#speakers">Speakers</a></h2>
 
-		<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+		<div class="grid md:grid-cols-4 gap-4">
 			
 			<!-- <div class="grid gap-4">
 				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
@@ -174,10 +174,87 @@
 
 <section class="container mx-auto px-4 py-4">
 	<div class="grid">
-		<h2 class="text-4xl font-extrabold dark:text-white">Organizers</h2>
-		<div class="pt-4"><p class="text-xl">
-			Coming soon.
+		<h2 class="text-4xl font-extrabold dark:text-white " id="speakers"><a href="{base}/#speakers">Organizers</a></h2>
+
+		
+		<div class="grid grid-cols-4 md:grid-cols-4 gap-8 py-6 ">
+			
+			<div class="grid gap-4">
+				<a href="https://una-dinosauria.github.io">
+				<div class="flex items-center space-x-4 rtl:space-x-reverse">
+					<div class="flex-shrink-0">
+					   <img class="w-8 h-8 rounded-full" src="citations.jfif" alt="Neil image">
+					</div>
+					<div class="flex-1 min-w-0">
+					   <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+						  Julieta Martinez
+					   </p>
+					   <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+						  Research Scientist at Meta
+					   </p>
+					</div>
+				 </div>
+				</a>
+			</div>
+
+			<div class="grid gap-4">
+				<a href="https://ps.is.mpg.de/person/jromero">
+				<div class="flex items-center space-x-4 rtl:space-x-reverse">
+					<div class="flex-shrink-0">
+					   <img class="w-8 h-8 rounded-full" src="jr.jfif" alt="Neil image">
+					</div>
+					<div class="flex-1 min-w-0">
+					   <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+						  Javier Romero
+					   </p>
+					   <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+						  Research Scientist at Meta
+					   </p>
+					</div>
+				 </div>
+				</a>
+			</div>
+			
+			
+			<div class="grid gap-4">
+				<a href="https://zollhoefer.com/">
+				<div class="flex items-center space-x-4 rtl:space-x-reverse">
+					<div class="flex-shrink-0">
+					   <img class="w-8 h-8 rounded-full" src="mz.jfif" alt="Neil image">
+					</div>
+					<div class="flex-1 min-w-0">
+					   <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+						  Michael Zollhoefer
+					   </p>
+					   <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+						  Research Director at Meta
+					   </p>
+					</div>
+				 </div>
+				 </a>
+			</div>
+			
+			<div class="grid gap-4">
+				<a href="http://www.cs.cmu.edu/~yaser">
+				<div class="flex items-center space-x-4 rtl:space-x-reverse">
+					<div class="flex-shrink-0">
+					   <img class="w-8 h-8 rounded-full" src="ys.jfif" alt="Neil image">
+					</div>
+					<div class="flex-1 min-w-0">
+					   <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+						  Yaser Sheikh
+					   </p>
+					   <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+						  Research VP at Meta
+					   </p>
+					</div>
+				 </div>
+				</a>
+			</div>
+
+
 		</div>
+
 	</div>
 </section>
 
