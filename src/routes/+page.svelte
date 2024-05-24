@@ -410,7 +410,7 @@
 
 			<div class="text-gray-600">
 				<p>
-					Email: <a href="mailto:julietamartinez@meta.com" class="hover:text-gray-900">julietamartinez@meta.com</a>
+					Contact: <a href="mailto:julietamartinez@meta.com" class="hover:text-gray-900">julietamartinez@meta.com</a>
 				</p>
 			</div>
 			<div class="text-center text-gray-600">
