@@ -9,6 +9,7 @@
 	
 	// Flowbite
 	import { Navbar, NavBrand, NavLi, NavUl, Button, NavHamburger } from 'flowbite-svelte'
+	import { get_root_for_style } from 'svelte/internal';
   
 	let datasetName = 'Aurora Multi-Sensor Dataset';
 
@@ -94,15 +95,157 @@
 <section class="container mx-auto px-4 py-4">
 	<div class="grid">
 		<h2 class="text-4xl font-extrabold dark:text-white">Schedule</h2>
-		<div class="pt-4"><p class="text-xl">
-			Coming soon.
+		
+		
+		<div class="py-4">
+		<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+			<table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+				<thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+					<tr>
+						<th scope="col" class="px-6 py-3">
+							Time
+						</th>
+						<th scope="col" class="px-6 py-3">
+							Speaker
+						</th>
+						<th scope="col" class="px-6 py-3">
+							Topic
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							9:00 - 10:15
+						</th>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							10:15 - 10:30
+						</th>
+						<td class="px-6 py-4">
+							☕
+						</td>
+						<td class="px-6 py-4">
+							15 min break
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							10:30 - 11:15
+						</th>
+						<td class="px-6 py-4">
+							Prof. Christian Theobalt
+						</td>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							11:15 - 12:00
+						</th>
+						<td class="px-6 py-4">
+							Prof. Yaser Sheikh
+						</td>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							12:00 - 1:00
+						</th>
+						<td class="px-6 py-4">
+							🥪
+						</td>
+						<td class="px-6 py-4">
+							Lunch break
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							1:00 - 1:45
+						</th>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							1:45 - 2:30
+						</th>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							2:30 - 3:15
+						</th>
+						<td class="px-6 py-4">
+							Prof. Michael Black
+						</td>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							3:15 - 3:30
+						</th>
+						<td class="px-6 py-4">
+							☕
+						</td>
+						<td class="px-6 py-4">
+							15 min break
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							3:30 - 4:15
+						</th>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+					</tr>
+					<tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							4:15 - 5:00
+						</th>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+						<td class="px-6 py-4">
+							TBD
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
+
+
 	</div>
 </section>
 
 <section class="container mx-auto px-4 py-4">
 	<div class="grid">
-		<h2 class="text-4xl font-extrabold dark:text-white" id="speakers"><a href="{base}/#speakers">Speakers</a></h2>
+		<h2 class="text-4xl font-extrabold dark:text-white" id="speakers"><a href="{base}/#speakers">Keynote Speakers</a></h2>
 
 		<div class="grid md:grid-cols-4 gap-4">
 			
