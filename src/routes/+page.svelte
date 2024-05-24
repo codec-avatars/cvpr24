@@ -74,13 +74,13 @@
 			Social Presence with Codec Avatars
 		</h1>
         <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-			Full-day CVPR'24 workshop on Tuesday, June 18, 2024, at the Seattle Convention Center.
-		</p>
-        
+			Full-day CVPR'24 workshop on Tuesday, June 18, 2024. <br />
+			Summit 333, at the Seattle Convention Center.
+		</p>  
     </div>
 </section>
 
-<section class="container mx-auto px-4 py-4">
+<section class="container mx-auto px-4">
 	<div class="grid">
 		<h2 class="text-4xl font-extrabold dark:text-white">Overview</h2>
 		<div class="pt-4"><p class="text-xl">
