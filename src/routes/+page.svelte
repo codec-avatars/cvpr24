@@ -106,7 +106,7 @@
 
 		<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 			
-			<div class="grid gap-4">
+			<!-- <div class="grid gap-4">
 				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
 					<a href="https://people.eecs.berkeley.edu/~kanazawa/">
 						<img class="w-full aspect-square object-cover object-top" src="angjoo_photo.jpg" alt="Prof. Kanazawa">
@@ -119,7 +119,7 @@
 					</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="grid gap-4">
 				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
