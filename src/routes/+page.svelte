@@ -76,7 +76,7 @@
         <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
 			Full-day CVPR'24 workshop on Tuesday, June 18, 2024 <br />
 			Summit 333, at the Seattle Convention Center
-		</p>  
+		</p>
     </div>
 </section>
 
@@ -218,7 +218,7 @@
 							3:30 - 4:15
 						</th>
 						<td class="px-6 py-4">
-							TBD
+							Prof. Angela Dai
 						</td>
 						<td class="px-6 py-4">
 							TBD
@@ -249,20 +249,20 @@
 
 		<div class="grid md:grid-cols-4 gap-4">
 			
-			<!-- <div class="grid gap-4">
+			<div class="grid gap-4">
 				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
-					<a href="https://people.eecs.berkeley.edu/~kanazawa/">
-						<img class="w-full aspect-square object-cover object-top" src="angjoo_photo.jpg" alt="Prof. Kanazawa">
+					<a href="https://www.professoren.tum.de/en/dai-angela/">
+						<img class="w-full aspect-square object-cover object-top" src="Dai_Angela.jpg" alt="Prof. Kanazawa">
 					</a>
 					<div class="px-6 py-4">
-					<div class="font-bold text-xl mb-2"><a href="https://people.eecs.berkeley.edu/~kanazawa/">Prof. Angjoo Kanazawa</a></div>
+					<div class="font-bold text-xl mb-2"><a href="https://people.eecs.berkeley.edu/~kanazawa/">Prof. Angela Dai</a></div>
 					<p class="text-gray-700 text-base">
-						Assistant Professor in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley.
-						Lead of the Kanazawa AI Research (KAIR) lab under BAIR. Currently serving on the advisory board of Wonder Dynamics.
+						Assistant Professor at the Technical University of Munich where she leads the 3D AI lab.
+						Her research has been recognized through an ERC Starting Grant, Eurographics Young Researcher Award, Google Research Scholar Award, ZDB Junior Research Group Award, an ACM SIGGRAPH Outstanding Doctoral Dissertation Honorable Mention, as well as a Stanford Graduate Fellowship.
 					</p>
 					</div>
 				</div>
-			</div> -->
+			</div>
 
 			<div class="grid gap-4">
 				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
@@ -289,7 +289,7 @@
 					<div class="font-bold text-xl mb-2"><a href="https://people.mpi-inf.mpg.de/~theobalt/">Prof. Christian Theobalt</a></div>
 					<p class="text-gray-700 text-base">
 						Director of the Visual Computing and AI Department at MPI for Informatics. Professor of Computer Science at Saarland University,
-						and Director of the Saarbruecken Center for Visual Computing, Interacton and Artificial Intelligence.
+						and Director of the Saarbruecken Center for Visual Computing, Interaction and Artificial Intelligence.
 					</p>
 					</div>
 				</div>
