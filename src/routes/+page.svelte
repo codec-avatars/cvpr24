@@ -82,7 +82,7 @@
 
 <section class="container mx-auto px-4">
 	<div class="grid">
-		<h2 class="text-4xl font-extrabold dark:text-white" id="overview"><a href="{base}/#schedule">Overview</a></h2>
+		<h2 class="text-4xl font-extrabold dark:text-white" id="overview"><a href="{base}/#overview">Overview</a></h2>
 		<div class="pt-4"><p class="text-xl">
 			Our workshop will be devoted to telepresence: the task of generating and driving realistic human representations. 
 			Regarding generation, we plan to cover the learning of efficient 3d representations of faces, hands, and bodies, and the particular challenges of each modality. 
