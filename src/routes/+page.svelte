@@ -252,10 +252,10 @@
 			<div class="grid gap-4">
 				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
 					<a href="https://www.professoren.tum.de/en/dai-angela/">
-						<img class="w-full aspect-square object-cover object-top" src="Dai_Angela.jpg" alt="Prof. Kanazawa">
+						<img class="w-full aspect-square object-cover object-top" src="Dai_Angela.jpg" alt="Prof. Dai">
 					</a>
 					<div class="px-6 py-4">
-					<div class="font-bold text-xl mb-2"><a href="https://people.eecs.berkeley.edu/~kanazawa/">Prof. Angela Dai</a></div>
+					<div class="font-bold text-xl mb-2"><a href="https://www.professoren.tum.de/en/dai-angela/">Prof. Angela Dai</a></div>
 					<p class="text-gray-700 text-base">
 						Assistant Professor at the Technical University of Munich where she leads the 3D AI lab.
 						Her research has been recognized through an ERC Starting Grant, Eurographics Young Researcher Award, Google Research Scholar Award, ZDB Junior Research Group Award, an ACM SIGGRAPH Outstanding Doctoral Dissertation Honorable Mention, as well as a Stanford Graduate Fellowship.
@@ -267,7 +267,7 @@
 			<div class="grid gap-4">
 				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
 					<a href="https://ps.is.mpg.de/person/black">
-						<img class="w-full aspect-square object-cover object-top" src="mjb_photo.jpg" alt="Prof. Kanazawa">
+						<img class="w-full aspect-square object-cover object-top" src="mjb_photo.jpg" alt="Prof. Black">
 					</a>
 					<div class="px-6 py-4">
 					<div class="font-bold text-xl mb-2"><a href="https://ps.is.mpg.de/person/black">Prof. Michael Black</a></div>
@@ -283,7 +283,7 @@
 			<div class="grid gap-4">
 				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
 					<a href="https://people.mpi-inf.mpg.de/~theobalt/">
-						<img class="w-full aspect-square object-cover object-top" src="theobalt_photo.jpg" alt="Prof. Kanazawa">
+						<img class="w-full aspect-square object-cover object-top" src="theobalt_photo.jpg" alt="Prof. Theobalt">
 					</a>
 					<div class="px-6 py-4">
 					<div class="font-bold text-xl mb-2"><a href="https://people.mpi-inf.mpg.de/~theobalt/">Prof. Christian Theobalt</a></div>
@@ -298,7 +298,7 @@
 			<div class="grid gap-4">
 				<div class="py-4 max-w-sm rounded overflow-hidden shadow-lg">
 					<a href="https://www.cs.cmu.edu/~yaser/">
-						<img class="w-full aspect-square object-cover object-top" src="yaser_photo.jpg" alt="Prof. Kanazawa">
+						<img class="w-full aspect-square object-cover object-top" src="yaser_photo.jpg" alt="Prof. Sheikh">
 					</a>
 					<div class="px-6 py-4">
 					<div class="font-bold text-xl mb-2"><a href="https://www.cs.cmu.edu/~yaser/">Prof. Yaser Sheikh</a></div>
