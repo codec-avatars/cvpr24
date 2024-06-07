@@ -229,7 +229,7 @@
 							4:15 - 5:00
 						</th>
 						<td class="px-6 py-4">
-							TBD
+							Panel with Speakers and Organizers
 						</td>
 						<td class="px-6 py-4">
 							TBD
