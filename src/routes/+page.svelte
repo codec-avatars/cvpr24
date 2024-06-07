@@ -320,12 +320,12 @@
 		<h2 class="text-4xl font-extrabold dark:text-white " id="organizers"><a href="{base}/#organizers">Organizers</a></h2>
 
 		
-		<div class="grid grid-cols-4 md:grid-cols-4 gap-8 py-6 ">
+		<div class="grid md:grid-cols-4 gap-4 py-6">
 			
 			<div class="grid gap-4">
 				<a href="https://una-dinosauria.github.io">
 				<div class="flex items-center space-x-4 rtl:space-x-reverse">
-					<div class="flex-shrink-0">
+					<div>
 					   <img class="w-8 h-8 rounded-full" src="citations.jfif" alt="Neil image">
 					</div>
 					<div class="flex-1 min-w-0">
@@ -343,7 +343,7 @@
 			<div class="grid gap-4">
 				<a href="https://ps.is.mpg.de/person/jromero">
 				<div class="flex items-center space-x-4 rtl:space-x-reverse">
-					<div class="flex-shrink-0">
+					<div>
 					   <img class="w-8 h-8 rounded-full" src="jr.jfif" alt="Neil image">
 					</div>
 					<div class="flex-1 min-w-0">
@@ -362,7 +362,7 @@
 			<div class="grid gap-4">
 				<a href="https://zollhoefer.com/">
 				<div class="flex items-center space-x-4 rtl:space-x-reverse">
-					<div class="flex-shrink-0">
+					<div>
 					   <img class="w-8 h-8 rounded-full" src="mz.jfif" alt="Neil image">
 					</div>
 					<div class="flex-1 min-w-0">
@@ -380,7 +380,7 @@
 			<div class="grid gap-4">
 				<a href="http://www.cs.cmu.edu/~yaser">
 				<div class="flex items-center space-x-4 rtl:space-x-reverse">
-					<div class="flex-shrink-0">
+					<div>
 					   <img class="w-8 h-8 rounded-full" src="ys.jfif" alt="Neil image">
 					</div>
 					<div class="flex-1 min-w-0">
