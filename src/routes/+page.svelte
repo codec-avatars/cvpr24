@@ -119,7 +119,7 @@
 							9:30 - 10:15
 						</th>
 						<td class="px-6 py-4">
-							TBD
+							<a href="https://una-dinosauria.github.io/">Julieta Martinez</a>
 						</td>
 						<td class="px-6 py-4">
 							TBD
@@ -141,7 +141,7 @@
 							10:30 - 11:15
 						</th>
 						<td class="px-6 py-4">
-							Prof. Christian Theobalt
+							<a href="https://people.mpi-inf.mpg.de/~theobalt/">Prof. Christian Theobalt</a>
 						</td>
 						<td class="px-6 py-4">
 							TBD
@@ -152,7 +152,7 @@
 							11:15 - 12:00
 						</th>
 						<td class="px-6 py-4">
-							Prof. Yaser Sheikh
+							<a href="http://www.cs.cmu.edu/~yaser/">Prof. Yaser Sheikh</a>
 						</td>
 						<td class="px-6 py-4">
 							TBD
@@ -174,7 +174,7 @@
 							1:00 - 1:45
 						</th>
 						<td class="px-6 py-4">
-							TBD
+							<a href="https://shunsukesaito.github.io/">Shunsuke Saito</a>
 						</td>
 						<td class="px-6 py-4">
 							TBD
@@ -185,7 +185,7 @@
 							1:45 - 2:30
 						</th>
 						<td class="px-6 py-4">
-							TBD
+							<a href="https://scholar.google.com.tw/citations?user=sFQD3k4AAAAJ&hl=zh-TW">Shih-En Wei</a>
 						</td>
 						<td class="px-6 py-4">
 							TBD
@@ -196,7 +196,7 @@
 							2:30 - 3:15
 						</th>
 						<td class="px-6 py-4">
-							Prof. Michael Black
+							<a href="https://ps.is.mpg.de/~black">Prof. Michael Black</a>
 						</td>
 						<td class="px-6 py-4">
 							TBD
@@ -218,7 +218,7 @@
 							3:30 - 4:15
 						</th>
 						<td class="px-6 py-4">
-							Prof. Angela Dai
+							<a href="https://www.professoren.tum.de/en/dai-angela">Prof. Angela Dai</a>
 						</td>
 						<td class="px-6 py-4">
 							TBD
