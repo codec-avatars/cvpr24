@@ -229,10 +229,12 @@
 							4:15 - 5:00
 						</th>
 						<td class="px-6 py-4">
-							Panel with Speakers and Organizers
+							<a href="https://www.professoren.tum.de/en/niessner-matthias">Prof. Matthias Niessner</a>, 
+							<a href="https://ps.is.mpg.de/~black">Prof. Michael Black</a>, and
+							<a href="http://www.cs.cmu.edu/~yaser/">Prof. Yaser Sheikh</a>.
 						</td>
 						<td class="px-6 py-4">
-							TBD
+							Panel
 						</td>
 					</tr>
 				</tbody>
